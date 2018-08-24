@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoneyMemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mon_compte">Mon compte</string>
+    <string name="partenaires">Partenaires</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    tools:context=".Driver">
+
+    <fragment
+        android:id="@+id/fragmentId"
+        android:name="com.smag.moneymemo.Dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        tools:layout="@layout/fragment_dashboard"></fragment>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@android:color/holo_red_light"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="optionButton"
+            android:text="Dashboard"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnPartenaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="optionButton"
+            android:text="@string/partenaires"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnMyAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="optionButton"
+            android:text="@string/mon_compte"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="optionButton"
+            android:text="Reglages"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>
