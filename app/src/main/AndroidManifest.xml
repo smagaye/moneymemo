@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smag.moneymemo">
+
+    <application>
+        <activity android:name="com.smag.moneymemo.MainActivity"></activity>
+    </application>
+</manifest>
